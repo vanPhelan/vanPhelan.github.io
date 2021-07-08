@@ -1,0 +1,21 @@
+---
+---
+
+@import "{{ site.theme }}";
+body {
+  background-color: #160408;
+  color: white;
+  font-family: Helvetica, sans-serif;
+  text-shadow: 1px 1px 5px black;
+}
+h2 {
+  color: white;
+  font-family: Georgia, serif;
+  text-shadow: 3px 3px 5px black;
+}
+h1 {
+  color: white;
+  font-family: Georgia, serif;
+  text-shadow: 5px 5px 5px black;
+  font-variant: small-caps;
+}
