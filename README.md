@@ -2,7 +2,7 @@
 
 ## Maze Chaser
 
-### Maze Chaser is a simplistic game developed as an example for students. It uses no imported assets and is playable using mouse, keyboard, or gamepad, or touch screen.
+#### Maze Chaser is a simplistic game developed as an example for students. It uses no imported assets and is playable using mouse, keyboard, or gamepad, or touch screen.
 
 Web Player: [https://vanphelan.github.io/Maze-Chaser/player/](https://vanphelan.github.io/Maze-Chaser/player/)
 
@@ -10,7 +10,7 @@ Repository: [https://github.com/vanPhelan/Maze-Chaser](https://github.com/vanPhe
 
 ## Fade
 
-Fade was an entry to the 2021 Global Game Jam. "Lost and Found" was the theme.
+#### Fade was an entry to the 2021 Global Game Jam. "Lost and Found" was the theme.
 
 Latest Release: [https://github.com/vanPhelan/Lost-And-Found/releases](https://github.com/vanPhelan/Lost-And-Found/releases)
 
