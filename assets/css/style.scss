@@ -4,12 +4,13 @@
 @import "{{ site.theme }}";
 body {
   background-color: #100408;
-  color: white;
+  color: #ffffff;
   font-family: Helvetica, sans-serif;
   text-shadow: 1px 1px 5px black;
 }
 a {
   color: #80ffff;
+  font-family: Helvetica, sans-serif;
 }
 a:hover {
   color: #408080;
@@ -18,12 +19,12 @@ a:active {
   color: #802040;
 }
 h2 {
-  color: white;
+  color: #ffffff;
   font-family: Georgia, serif;
   text-shadow: 3px 3px 5px black;
 }
 h1 {
-  color: white;
+  color: #ffffff;
   font-family: Georgia, serif;
   text-shadow: 5px 5px 5px black;
   font-variant: small-caps;
