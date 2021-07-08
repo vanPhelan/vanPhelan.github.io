@@ -1,37 +1,19 @@
-## Welcome to GitHub Pages
+# Projects
 
-You can use the [editor on GitHub](https://github.com/vanPhelan/vanPhelan/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+## Maze Chaser
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Maze Chaser is a simplistic game developed as an example for students. It uses no imported assets and is playable using mouse, keyboard, or gamepad, or touch screen.
 
-### Markdown
+Web Player: https://vanphelan.github.io/Maze-Chaser/player/
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Repository: https://github.com/vanPhelan/Maze-Chaser
 
-```markdown
-Syntax highlighted code block
+## Fade
 
-# Header 1
-## Header 2
-### Header 3
+Fade was an entry to the 2021 Global Game Jam. "Lost and Found" was the theme.
 
-- Bulleted
-- List
+Latest Release: https://github.com/vanPhelan/Lost-And-Found/releases
 
-1. Numbered
-2. List
+Submission Page: https://globalgamejam.org/2021/games/fade-9
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/vanPhelan/vanPhelan/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Code: https://github.com/vanPhelan/Fade
