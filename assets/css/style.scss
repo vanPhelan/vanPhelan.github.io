@@ -3,30 +3,30 @@
 
 @import "{{ site.theme }}";
 body {
-  background-color: #100408;
-  color: #ffffff;
+  background-color: hsl(340, 20%, 10%);
+  color: white;
   font-family: Helvetica, sans-serif;
   text-shadow: 1px 1px 5px black;
 }
 a {
-  color: #80ffff;
+  color: hsl(180, 80%, 80%);
   font-weight: normal;
 }
 a:hover {
-  color: #408080;
+  color: hsl(180, 40%, 40%);
   font-weight: normal;
 }
 a:active {
-  color: #802040;
+  color: hsl(340, 40%, 40%);
   font-weight: normal;
 }
 h2 {
-  color: #ffffff;
+  color: white;
   font-family: Georgia, serif;
   text-shadow: 3px 3px 5px black;
 }
 h1 {
-  color: #ffffff;
+  color: white;
   font-family: Georgia, serif;
   text-shadow: 5px 5px 5px black;
   font-variant: small-caps;
