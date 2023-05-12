@@ -22,7 +22,7 @@ body {
 }
 
 .scroll {
-  height: 1000px;
+  height: 320px;
   overflow: auto;
   white-space: nowrap;
 }
