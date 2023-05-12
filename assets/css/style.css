@@ -21,6 +21,10 @@ body {
   padding-top: 5%;
 }
 
+.banner {
+  width 50%;
+}
+
 a {
   color: hsl(180, 80%, 80%);
   font-weight: normal;
