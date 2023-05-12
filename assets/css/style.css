@@ -21,6 +21,10 @@ body {
   padding-top: 5%;
 }
 
+.portrait {
+  width: 100%;
+}
+
 .banner {
   width: 50%;
 }
