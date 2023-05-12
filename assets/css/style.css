@@ -9,6 +9,7 @@ body {
   height: 10%;
   padding-left: 10%;
   position: fixed;
+  overflow: hidden;
 }
 
 .sidenav {
@@ -28,9 +29,12 @@ body {
 }
 
 .scroll {
-  height: 320px;
-  overflow: auto;
-  white-space: nowrap;
+  height: 300px;
+}
+
+.project {
+  width: 400px;
+  height: 100%;
 }
 
 .portrait {
