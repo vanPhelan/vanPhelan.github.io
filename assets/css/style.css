@@ -45,6 +45,7 @@ a:active {
 
 .name {
   color: var(--light-shades);
+  text-shadow: 5px 5px 5px black;
   font-size: xx-large;
 }
 .name a {
