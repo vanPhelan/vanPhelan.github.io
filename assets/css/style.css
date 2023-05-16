@@ -33,7 +33,7 @@ a:active {
 }
 .topnav a {
   text-align: center;
-  padding-right: 1%;
+  padding-right: 2.5%;
 }
 
 .name {
@@ -53,8 +53,8 @@ a:active {
 }
 
 .content {
-  top: 5%;
-  left: 5%;
+  padding-top: 5%;
+  padding-left: 5%;
 }
 
 .gallery {
