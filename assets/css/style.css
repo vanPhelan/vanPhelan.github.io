@@ -24,7 +24,7 @@ a:active {
   left: 0px;
   width: 100%;
   height: 5%;
-  padding-top: 5%;
+  padding-top: 1%;
   padding-left: 5%;
   overflow: hidden;
   font-family: Georgia, serif;
@@ -33,7 +33,7 @@ a:active {
 }
 .topnav a {
   text-align: center;
-  padding-right: 5%;
+  padding-right: 1%;
 }
 
 .name {
@@ -53,8 +53,8 @@ a:active {
 }
 
 .content {
-  margin-top: 5%;
-  margin-left: 5%;
+  top: 5%;
+  left: 5%;
 }
 
 .gallery {
