@@ -1,8 +1,8 @@
 :root {
-  --light-shades: #EEF1ED;
-  --light-accent: #9B9AB7;
-  --dark-accent: #9471A1;
-  --dark-shades: #241C2C;
+  --light-shades: #E9EFE5;
+  --light-accent: #D0AA89;
+  --dark-accent: #777F9C;
+  --dark-shades: #243440;
 }
 
 body {
@@ -31,9 +31,11 @@ a:active {
   left: 0px;
   width: 100%;
   padding-left: 5%;
-  overflow: visible;
+  overflow: auto;
+  white-space: nowrap;
   font-family: Georgia, serif;
   font-variant: small-caps;
+  scrollbar-width: thin;
   background-color: var(--dark-accent);
 }
 .topnav a {
@@ -58,7 +60,7 @@ a:active {
 }
 
 .content {
-  padding-top: 16px;
+  padding-top: 5%;
   padding-left: 5%;
 }
 
