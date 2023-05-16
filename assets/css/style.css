@@ -50,6 +50,12 @@ a:active {
 .name a {
   color: var(--light-shades);
 }
+.name a:hover {
+  color: var(--light-shades);
+}
+.name a:active {
+  color: var(--light-shades);
+}
 
 .title {
   color: #EEF1ED;
@@ -60,7 +66,7 @@ a:active {
 }
 
 .content {
-  padding-top: 5%;
+  padding-top: 10%;
   padding-left: 5%;
 }
 
