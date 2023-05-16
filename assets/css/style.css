@@ -1,12 +1,13 @@
 body {
   background-color: hsl(340, 20%, 10%);
-  color: white;
+  color: hsl(340, 10%, 90%);
   font-family: Helvetica, sans-serif;
   text-shadow: 1px 1px 5px black;
 }
 a {
   color: hsl(180, 80%, 80%);
   font-weight: normal;
+  text-decoration: none;
 }
 a:hover {
   color: hsl(180, 40%, 40%);
@@ -20,9 +21,9 @@ a:active {
 .topnav {
   position: fixed;
   top: 0px;
-  left: 0px;
   width: 100%;
   height: 48px;
+  margin-left: 5%;
   overflow: hidden;
   font-family: Georgia, serif;
   font-variant: small-caps;
@@ -31,12 +32,18 @@ a:active {
 .topnav a {
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none;
 }
 
 .name {
-  color: white;
+  color: hsl(340, 10%, 90%);
   font-size: x-large;
+}
+.name a {
+  color: hsl(340, 10%, 90%);
+}
+
+.title {
+  color: hsl(340, 10%, 60%);
 }
 
 .portrait {
@@ -55,13 +62,13 @@ a:active {
 }
 
 .project {
-  width: 300px;
-  height: 200px;
+  width: 330px;
+  height: 230px;
   padding-right: 24px;
   display: table-cell;
 }
 .project img {
-  max-width: 300px;
+  max-width: 330px;
   max-height: 215px;
 }
 
