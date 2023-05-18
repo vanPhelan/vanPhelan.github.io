@@ -14,16 +14,13 @@ body {
 }
 a {
   color: var(--light-accent);
-  font-weight: normal;
   text-decoration: none;
 }
 a:hover {
   color: var(--light-accent);
-  font-weight: normal;
 }
 a:active {
   color: var(---light-accent);
-  font-weight: normal;
 }
 h1 {
   font-family: Georgia, serif;
