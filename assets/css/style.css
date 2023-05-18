@@ -104,3 +104,10 @@ h2 {
   max-width: 330px;
   max-height: 215px;
 }
+
+.bottomnav {
+  padding-left: 5%;
+  bottom: 10px;
+  color: var(--dark-accent);
+  font-size: x-small;
+}
