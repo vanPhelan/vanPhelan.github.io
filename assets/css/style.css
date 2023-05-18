@@ -1,9 +1,9 @@
 :root {
-  --light-shades: #F2F4F4;
-  --light-accent: #958894;
-  --main-color: #827285;
-  --dark-accent: #8C778D;
-  --dark-shades: #5E4B65;
+  --light-shades: #F3ECE6;
+  --light-accent: #935C6D;
+  --main-color: #774A64;
+  --dark-accent: #866A66;
+  --dark-shades: #252827;
 }
 
 body {
@@ -25,6 +25,15 @@ a:active {
   color: var(---main-color);
   font-weight: normal;
 }
+h1 {
+  font-family: Georgia, serif;
+  text-shadow: 0px 0px 5px black;
+  font-variant: small-caps;
+}
+h2 {
+  font-family: Georgia, serif;
+  text-shadow: 0px 0px 5px black;
+}
 
 .topnav {
   position: fixed;
@@ -38,6 +47,8 @@ a:active {
   font-variant: small-caps;
   scrollbar-width: thin;
   background-color: var(--dark-accent);
+  color: var(--light-shades);
+  text-shadow: 0px 0px 5px black;
 }
 .topnav a {
   text-align: center;
@@ -91,14 +102,4 @@ a:active {
 .project img {
   max-width: 330px;
   max-height: 215px;
-}
-
-h1 {
-  font-family: Georgia, serif;
-  text-shadow: 0px 0px 5px black;
-  font-variant: small-caps;
-}
-h2 {
-  font-family: Georgia, serif;
-  text-shadow: 0px 0px 5px black;
 }
