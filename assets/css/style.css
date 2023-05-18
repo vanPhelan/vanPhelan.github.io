@@ -1,8 +1,9 @@
 :root {
-  --light-shades: #EFF1F0;
-  --light-accent: #E69A9C;
-  --dark-accent: #7F87B8;
-  --dark-shades: #2E263F;
+  --light-shades: #FAF9F9;
+  --light-accent: #8C7985;
+  --main-color: #A19FA2;
+  --dark-accent: #8C5A83;
+  --dark-shades: #2F323B;
 }
 
 body {
