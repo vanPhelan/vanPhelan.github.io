@@ -34,7 +34,6 @@ h2 {
   white-space: nowrap;
   scrollbar-width: thin;
   background-color: var(--dark-accent);
-  color: var(--light-shades);
   font-family: Georgia, serif;
   font-variant: small-caps;
 }
