@@ -16,11 +16,11 @@ a {
   text-decoration: none;
 }
 h1 {
-  font-family: Georgia, serif;
+  font-family: Garamond, serif;
   font-variant: small-caps;
 }
 h2 {
-  font-family: Georgia, serif;
+  font-family: Garamond, serif;
 }
 
 .topnav {
@@ -76,7 +76,7 @@ h2 {
 .content {
   padding-top: 64px;
   padding-left: 5%;
-  padding-bottom: 5%;
+  padding-bottom: 20px;
 }
 .content a {
   color: var(--light-accent);
@@ -110,5 +110,5 @@ h2 {
   padding-left: 5%;
   bottom: 10px;
   color: var(--dark-accent);
-  font-size: x-small;
+  font-size: small;
 }
