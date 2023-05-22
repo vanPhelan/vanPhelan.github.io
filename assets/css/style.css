@@ -1,6 +1,6 @@
 :root {
-  --body-text: #FBF9F9;
-  --link-text: #a68db4;
+  --body-text: #fbf9f9;
+  --link-text: #b797ca;
   --subtle-text: #50687c;
   --header-bg: #5e3a50;
   --main-bg: #1d2429;
@@ -44,10 +44,10 @@ h2 {
   color: var(--link-text);
 }
 .navout a:hover {
-  color: var(--subtle-text);
+  color: var(--subtle-text) !important;
 }
 .navout a:active {
-  color: var(--subtle-text);
+  color: var(--subtle-text) !important;
 }
 
 .name {
@@ -76,15 +76,16 @@ h2 {
   padding-top: 100px;
   padding-left: 5%;
   padding-bottom: 20px;
+  text-decoration: none;
 }
 .content a {
   color: var(--link-text);
 }
 .content a:hover {
-  color: var(--subtle-text);
+  color: var(--subtle-text) !important;
 }
 .content a:active {
-  color: var(--subtle-text);
+  color: var(--subtle-text) !important;
 }
 
 .gallery {
