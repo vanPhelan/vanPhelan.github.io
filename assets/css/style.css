@@ -29,6 +29,9 @@ h2 {
   white-space: nowrap;
   scrollbar-width: thin;
   background-color: var(--header-bg);
+  font-family: Garamond, serif;
+  font-variant: small-caps;
+  text-decoration: none;
 }
 
 .navout {
