@@ -41,16 +41,16 @@ h2 {
 .navout {
   text-align: center;
   padding-right: 2.5%;
-  color: var(--light-shades);
+  color: var(--main-color);
 }
 .navout a {
-  color: var(--light-shades);
+  color: var(--main-color);
 }
 .navout a:hover {
-  color: var(--light-accent);
+  color: var(--main-color);
 }
 .navout a:active {
-  color: var(--light-accent);
+  color: var(--main-color);
 }
 
 .name {
@@ -79,13 +79,13 @@ h2 {
   padding-bottom: 20px;
 }
 .content a {
-  color: var(--main-color);
+  color: var(--light-accent);
 }
 .content a:hover {
-  color: var(--main-color);
+  color: var(--light-accent);
 }
 .content a:active {
-  color: var(--main-color);
+  color: var(--light-accent);
 }
 
 .gallery {
