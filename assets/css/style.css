@@ -1,21 +1,19 @@
 :root {
-  --light-shades: #FBF9F9;
-  --light-accent: #9E95A3;
-  --main-color: #50687D;
-  --dark-accent: #613651;
-  --dark-shades: #1D2228;
+  --body-text: #FBF9F9;
+  --link-text: #9E95A3;
+  --subtle-text: #50687D;
+  --header-bg: #613651;
+  --main-bg: #1D2228;
 }
-
 body {
-  background-color: var(--dark-shades);
-  color: var(--light-shades);
+  background-color: var(--main-bg);
+  color: var(--body-text);
   font-family: Arial, sans-serif;
   text-shadow: 0px 0px 5px black;
 }
 h1 {
   font-family: Garamond, serif;
   font-variant: small-caps;
-  text-decoration: none;
 }
 h2 {
   font-family: Garamond, serif;
@@ -31,40 +29,40 @@ h2 {
   overflow: auto;
   white-space: nowrap;
   scrollbar-width: thin;
-  background-color: var(--dark-accent);
+  background-color: var(--header-bg);
   font-family: Georgia, serif;
-  font-variant: small-caps;
 }
 
 .navout {
   text-align: center;
   padding-right: 2.5%;
-  color: var(--main-color);
+  color: var(--link-text);
 }
 .navout a {
-  color: var(--main-color);
+  color: var(--link-text);
 }
 .navout a:hover {
-  color: var(--main-color);
+  color: var(--link-text);
 }
 .navout a:active {
-  color: var(--main-color);
+  color: var(--link-text);
 }
 
 .name {
   text-align: center;
   padding-right: 2.5%;
-  color: var(--light-shades);
+  color: var(--body-text);
   font-size: xx-large;
 }
 .name a {
-  color: var(--light-shades);
+  color: var(--body-text);
+  text-decoration: none;
 }
 .name a:hover {
-  color: var(--light-shades);
+  color: var(--body-text);
 }
 .name a:active {
-  color: var(--light-shades);
+  color: var(--body-text);
 }
 
 .portrait {
@@ -77,13 +75,13 @@ h2 {
   padding-bottom: 20px;
 }
 .content a {
-  color: var(--light-accent);
+  color: var(--link-text);
 }
 .content a:hover {
-  color: var(--light-accent);
+  color: var(--link-text);
 }
 .content a:active {
-  color: var(--light-accent);
+  color: var(--link-text);
 }
 
 .gallery {
@@ -107,6 +105,6 @@ h2 {
 .bottomnav {
   padding-left: 5%;
   bottom: 10px;
-  color: var(--dark-accent);
+  color: var(--subtle-text);
   font-size: small;
 }
