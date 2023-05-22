@@ -1,9 +1,9 @@
 :root {
   --body-text: #FBF9F9;
-  --link-text: #9E95A3;
-  --subtle-text: #50687D;
-  --header-bg: #613651;
-  --main-bg: #1D2228;
+  --link-text: #a68db4;
+  --subtle-text: #50687c;
+  --header-bg: #5e3a50;
+  --main-bg: #1d2429;
 }
 body {
   background-color: var(--main-bg);
@@ -38,15 +38,16 @@ h2 {
   color: var(--link-text);
   font-variant: small-caps;
   font-size: large;
+  text-decoration: none;
 }
 .navout a {
   color: var(--link-text);
 }
 .navout a:hover {
-  color: var(--link-text);
+  color: var(--subtle-text);
 }
 .navout a:active {
-  color: var(--link-text);
+  color: var(--subtle-text);
 }
 
 .name {
@@ -80,10 +81,10 @@ h2 {
   color: var(--link-text);
 }
 .content a:hover {
-  color: var(--link-text);
+  color: var(--subtle-text);
 }
 .content a:active {
-  color: var(--link-text);
+  color: var(--subtle-text);
 }
 
 .gallery {
