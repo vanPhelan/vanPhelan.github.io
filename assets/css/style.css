@@ -81,6 +81,7 @@ h2 {
 }
 .content a {
   color: var(--link-text);
+  text-decoration: none;
 }
 .content a:hover {
   color: var(--subtle-text) !important;
