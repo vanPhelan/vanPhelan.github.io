@@ -9,18 +9,18 @@
 body {
   background-color: var(--dark-shades);
   color: var(--light-shades);
-  font-family: Helvetica, sans-serif;
+  font-family: Helvetica, sans-serif, sans-serif;
   text-shadow: 0px 0px 5px black;
 }
 a {
   text-decoration: none;
 }
 h1 {
-  font-family: Garamond, serif;
+  font-family: "Cormorant Garamond", serif;
   font-variant: small-caps;
 }
 h2 {
-  font-family: Garamond, serif;
+  font-family: "Cormorant Garamond", serif;
 }
 
 .topnav {
