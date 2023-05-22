@@ -29,7 +29,6 @@ h2 {
   white-space: nowrap;
   scrollbar-width: thin;
   background-color: var(--header-bg);
-  font-family: Georgia, serif;
 }
 
 .navout {
