@@ -1,26 +1,26 @@
 :root {
   --light-shades: #F3ECE6;
-  --light-accent: #935C6D;
-  --main-color: #774A64;
-  --dark-accent: #866A66;
-  --dark-shades: #252827;
+  --light-accent: #9E95A3;
+  --main-color: #613651;
+  --dark-accent: #50687D;
+  --dark-shades: #1D2228;
 }
 
 body {
   background-color: var(--dark-shades);
   color: var(--light-shades);
-  font-family: Helvetica, sans-serif, sans-serif;
+  font-family: Helvetica, sans-serif;
   text-shadow: 0px 0px 5px black;
 }
 a {
   text-decoration: none;
 }
 h1 {
-  font-family: "Cormorant Garamond", serif;
+  font-family: serif;
   font-variant: small-caps;
 }
 h2 {
-  font-family: "Cormorant Garamond", serif;
+  font-family: serif;
 }
 
 .topnav {
@@ -79,13 +79,13 @@ h2 {
   padding-bottom: 20px;
 }
 .content a {
-  color: var(--light-accent);
+  color: var(--main-color);
 }
 .content a:hover {
-  color: var(--light-accent);
+  color: var(--main-color);
 }
 .content a:active {
-  color: var(--light-accent);
+  color: var(--main-color);
 }
 
 .gallery {
