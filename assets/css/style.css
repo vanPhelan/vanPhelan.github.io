@@ -30,6 +30,7 @@ h2 {
   scrollbar-width: thin;
   background-color: var(--header-bg);
   font-family: Garamond, serif;
+  font-variant: small-caps;
 }
 
 .navout {
