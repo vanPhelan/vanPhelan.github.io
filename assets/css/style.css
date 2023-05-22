@@ -10,6 +10,7 @@ body {
   color: var(--body-text);
   font-family: Arial, sans-serif;
   text-shadow: 0px 0px 5px black;
+  text-decoration: none;
 }
 h1 {
   font-family: Garamond, serif;
@@ -30,7 +31,6 @@ h2 {
   scrollbar-width: thin;
   background-color: var(--header-bg);
   font-family: Garamond, serif;
-  text-decoration: none;
 }
 
 .navout {
@@ -53,7 +53,7 @@ h2 {
 .name {
   text-align: center;
   padding-right: 2.5%;
-  color: var(--body-text);
+  color: var(--body-text) !important;
   font-weight: bold;
   font-size: xx-large;
 }
