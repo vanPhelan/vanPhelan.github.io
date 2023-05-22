@@ -30,7 +30,6 @@ h2 {
   scrollbar-width: thin;
   background-color: var(--header-bg);
   font-family: Garamond, serif;
-  text-decoration: none;
 }
 
 .navout {
@@ -57,7 +56,6 @@ h2 {
 }
 .name a {
   color: var(--body-text);
-  text-decoration: none;
 }
 .name a:hover {
   color: var(--body-text);
