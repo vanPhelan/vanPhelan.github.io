@@ -30,7 +30,6 @@ h2 {
   scrollbar-width: thin;
   background-color: var(--header-bg);
   font-family: Garamond, serif;
-  font-weight: bold;
 }
 
 .navout {
@@ -52,6 +51,7 @@ h2 {
   text-align: center;
   padding-right: 2.5%;
   color: var(--body-text);
+  font-weight: bold;
   font-size: xx-large;
   text-decoration: none;
 }
@@ -70,7 +70,7 @@ h2 {
 }
 
 .content {
-  padding-top: 64px;
+  padding-top: 100px;
   padding-left: 5%;
   padding-bottom: 20px;
 }
