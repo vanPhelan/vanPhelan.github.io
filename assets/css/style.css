@@ -36,15 +36,10 @@ h2 {
 .navout {
   text-align: center;
   padding-right: 2.5%;
+  color: var(--link-text);
   font-variant: small-caps;
   font-size: large;
   text-decoration: none;
-}
-.navout a {
-  color: var(--link-text);
-}
-.navout a:visited {
-  color: var(--link-text);
 }
 .navout a:hover {
   color: var(--subtle-text) !important;
@@ -83,7 +78,6 @@ h2 {
 }
 .content a {
   color: var(--link-text);
-  text-decoration: none;
 }
 .content a:hover {
   color: var(--subtle-text) !important;
