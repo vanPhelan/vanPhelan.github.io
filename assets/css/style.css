@@ -36,6 +36,8 @@ h2 {
   text-align: center;
   padding-right: 2.5%;
   color: var(--link-text);
+  font-variant: small-caps;
+  font-size: large;
 }
 .navout a {
   color: var(--link-text);
