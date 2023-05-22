@@ -10,7 +10,6 @@ body {
   color: var(--body-text);
   font-family: Arial, sans-serif;
   text-shadow: 0px 0px 5px black;
-  text-decoration: none;
 }
 h1 {
   font-family: Garamond, serif;
@@ -39,6 +38,9 @@ h2 {
   color: var(--link-text);
   font-variant: small-caps;
   font-size: large;
+}
+.navout a {
+  color: var(--link-text);
   text-decoration: none;
 }
 .navout a:hover {
@@ -54,10 +56,10 @@ h2 {
   color: var(--body-text);
   font-weight: bold;
   font-size: xx-large;
-  text-decoration: none;
 }
 .name a {
   color: var(--body-text);
+  text-decoration: none;
 }
 .name a:hover {
   color: var(--body-text);
@@ -74,10 +76,10 @@ h2 {
   padding-top: 100px;
   padding-left: 5%;
   padding-bottom: 20px;
-  text-decoration: none;
 }
 .content a {
   color: var(--link-text);
+  text-decoration: none;
 }
 .content a:hover {
   color: var(--subtle-text) !important;
