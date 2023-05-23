@@ -1,0 +1,112 @@
+:root {
+  --body-text: #fbf9f9;
+  --link-text: #c2a6d3;
+  --subtle-text: #50687c;
+  --header-bg: #5e3a50;
+  --main-bg: #1d2429;
+}
+body {
+  background-color: var(--main-bg);
+  color: var(--body-text);
+  font-family: Arial, sans-serif;
+  text-shadow: 0px 0px 5px black;
+}
+h1 {
+  font-family: Garamond, serif;
+}
+h2 {
+  font-family: Garamond, serif;
+}
+
+.topnav {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  overflow: auto;
+  white-space: nowrap;
+  scrollbar-width: thin;
+  background-color: var(--header-bg);
+  font-family: Garamond, serif;
+}
+.topnav a {
+  color: var(--link-text);
+  text-decoration: none;
+}
+.topnav a:hover {
+  color: var(--subtle-text);
+}
+.topnav a:active {
+  color: var(--subtle-text);
+}
+
+.navout {
+  text-align: center;
+  padding-right: 2.5%;
+  font-variant: small-caps;
+  font-size: large;
+}
+
+.name {
+  text-align: center;
+  padding-right: 2.5%;
+  color: var(--body-text) !important;
+  font-weight: bold;
+  font-size: xx-large;
+}
+.name a {
+  color: var(--body-text) !important;
+}
+.name a:hover {
+  color: var(--body-text) !important;
+}
+.name a:active {
+  color: var(--body-text) !important;
+}
+
+.portrait {
+  width: 32px;
+}
+
+.content {
+  padding-top: 100px;
+  padding-left: 5%;
+  padding-bottom: 20px;
+}
+.content a {
+  color: var(--link-text);
+  text-decoration: none;
+}
+.content a:hover {
+  color: var(--subtle-text) !important;
+}
+.content a:active {
+  color: var(--subtle-text) !important;
+}
+
+.gallery {
+  height: 400px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-width: thin;
+}
+
+.project {
+  width: 330px;
+  height: 100%;
+  padding-right: 24px;
+  display: table-cell;
+}
+.project img {
+  max-width: 330px;
+  max-height: 215px;
+}
+
+.bottomnav {
+  padding-left: 5%;
+  bottom: 10px;
+  color: var(--subtle-text);
+  font-size: small;
+}
