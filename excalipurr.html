@@ -35,37 +35,67 @@
       <h4>Sword Physics</h4>
       <p><img src="assets/images/excalipurr.jpg"/></p>
       <p>
-        Excalipurr itself is your primary attack for nearly the entire game, so I needed to ensure that it felt perfect to use. The game has a great deal of verticality, and landing the quick sword swing midair proved to be more difficult than I was happy with. I added a little bounce (which I ended up calling a "sword hop") to airborne strikes, and it made landing attacks against an intended target much easier. The second attack (the thrust) has less bounce on it and more delay at the end to ensure you can't stall in midair for longer than feels right.
+        Excalipurr itself is YOUr primary attack for nearly the entire game, so I needed to ensure that it felt perfect to use. The game has a great deal of verticality, and landing the quick sword swing midair proved to be more difficult than I was happy with. I added a little bounce (which I ended up calling a "sword hop") to airborne strikes, and it made landing attacks against an intended target much easier. The second attack (the thrust) has less bounce on it and more delay at the end to ensure the player can't stall in midair for longer than feels right.
       </p>
+      <p><img src="assets/images/excalipurr.jpg"/></p>
       <p>
         Sword hopping proved to be a lot of fun, so I added an extra use for it. If timed at the height of a jump, a sword hop allows the player to reach just one tile higher. This added a lot of opportunity for level design, especially in creating shortcuts and tough to reach areas. I liked the idea of each item being useful for more than just combat, and Excalipurr was no exception.
       </p>
       <h4>Hammer Impact</h4>
-      <p><img src="assets/images/excalipurr.jpg"/>
-        Sword physics.
+      <p><img src="assets/images/excalipurr.jpg"/></p>
+      <p>
+        For the hammer ("Meowlnir"), I had a very particular vision. I wanted it to feel like a heavy baseball swing, and part of feeling that impact is the screen freeze. In our 2D animations we used a great deal of smear frames, and freezing on a smear didn't correctly capture the exact moment of impact like I envisioned. To acheive this, the animation actually branches at the point of impact to one that doesn't smear for that frame but <i>does</i> smear for the remainder of the animation. Even without screenshake, the hammer felt <b>heavy</b>.
       </p>
       <h4>Weapon Swapping</h4>
-      <p><img src="assets/images/excalipurr.jpg"/>
-        Sword physics.
+      <p><img src="assets/images/excalipurr.jpg"/></p>
+      <p>
+        I didn't want the player to be concerned with inventory management. The game needed to feel fluid, and changing weapons needed to be part of that. Rather than including a way to cycle through items, I decided to ensure from the start that each weapon could be bound to a different button. Since premise of the game is that cats transform into items, this mechanic gave us an opportunity for a fun visual. The moment the player uses a weapon they aren't holding, the appropriate cat transforms into the weapon, and the weapon they <i>are</i> holding, if any, transforms back into a cat. Kat will continue to hold the weapon for several seconds without using it before the cat transforms back.
       </p>
       <h3>Enemy Design</h3>
       <h4>Boxer Boss</h4>
-      <p><img src="assets/images/excalipurr.jpg"/>
-        Sword physics.
+      <p><img src="assets/images/excalipurr.jpg"/></p>
+      <p>
+        As the first "real" boss of the game, the boxer needed to be mechanically unique. He has a few basic punch he can perform, but two of his moves needed special attention: the charge punch, and the jump slam. Both of these moves needed to be heavily telegraphed so they could be as devastating as they needed to be.
+      </p>
+      <p><img src="assets/images/excalipurr.jpg"/></p>
+      <p>
+        The charge punch is simple enough. It deals a high amount of damage and launches the player into the air, but it can easily be jumped over. To make sure the player gets to experience a variety of gameplay, the charge punch will only activate once the boss reaches a health threshold. It activates immediately at the threshold and then only any time the player is at least a certain distance from the boss.
+      </p>
+      <p><img src="assets/images/excalipurr.jpg"/></p>
+      <p>
+        The jump slam was more complex. Like the charge punch, it needed to be telegraphed, but unlike the charge punch, it needed to start instantly. The anticipation was to happen midair. I needed the rise to be gentle and floaty, but the fall needed to accelerate quickly for an impactful slam. To accomadate behaviors like this, I gave the character object several different variables related to jumping. I had an initial velocity for jumps as well as a maximum falling speed, but gravity was split into rising gravity and falling gravity. This, combined with horizontal acceleration and air control, gave me a lot of flexibility in designing enemy movement. Characters could feel light, heavy, floaty, stiff, or any other variation, and the slam felt great as a result.
+      </p>
+      <p>
+        Secretly, most of the "attack" animation is just the boxer's jump animation, since he didn't have any other way to get airborne.
       </p>
       <h3>Level Design</h3>
-      <h4>Level Pacing</h4>
-      <p><img src="assets/images/excalipurr.jpg"/>
-        Sword physics.
-      </p>
       <h4>Showing Surfaces</h4>
-      <p><img src="assets/images/excalipurr.jpg"/>
+      <p><img src="assets/images/excalipurr.jpg"/></p>
+      <p>
+        With a variety of environments it was important to show where the player could walk. Surfaces intended for walking needed to be clear, so we had them highlighted. This was important because the <i>ends</i> of paths could also be signaled this way, which opened up the opportunity for secret walls. Secret walls could be signaled in a way that was consistent but still required attention from the player. I didn't want secrets to feel completely arbitrary, but I wanted to have a lot of them.
+      </p>
+      <p><img src="assets/images/excalipurr.jpg"/></p>
+      <h4>"If it looks like you can, you can"</h4>
+      <p><img src="assets/images/excalipurr.jpg"/></p>
+      <p>
         Sword physics.
       </p>
-      <h4>"If it looks like you can, you can"</h4>
-      <p><img src="assets/images/excalipurr.jpg"/>
-        Sword physics.
+      <h4>Level Pacing</h4>
+      <p><img src="assets/images/excalipurr.jpg"/></p>
+      <p>
+        To avoid player burnout, my intention was to alternate level styles between "action" and "puzzle" each stage. Action levels were mostly linear and tested the player's combat skills, while puzzle levels were more exporatory and required a fair amount of thinking. The item acquired in each level also reflects its style, with action levels granting weapons and puzzle levels granting wearable equipment.
+      </p>
+      <p>
+        The first level, Crystal Coast, was an action level and introduced the player to all of the basic mechanics of the game. It branches very subtly in two places, but the paths rejoin quickly and serve as some foreshadowing that branching paths do exist. It also featured a miniboss, trapping the player on a screen to test what they've learned so far. This is the level where the player get Excalipurr, the sword they'll use for most of the combat in the game.
+      </p>
+      <p>
+        Once the coast wraps up, the player enters the jungle and things start opening up. The environment loops back on itself, requiring the player to use their newly found item to access the next area. It has some tougher enemies, but the player is allowed to approach them at their own pace, unlike some of the gauntlet fights from the intro. The jungle gives the dash boots.
+      </p>
+      <p>
+        From there, the levels were to alternate. The mountain was an arduous climb that gave the player the hammer. The multi-path volcano dealth with lava puzzles and gave the climbing gloves. The mine was a fun mine-cart ride through a flooded gem mine, giving the bow. The crypt was a ghost-filled maze that occasionally released the player into a desert, only to suck them back into the crypt. The cape found there granted a double-jump and glide. The sky ruin was a hanging garden tower that served as the final climb towards the end-game castle. The player gain the katana there.
       </p>
     </div>
+    <div class="bottomnav">Website designed by Van Phelan.</div>
+    <script src="/assets/js/scale.fix.js"></script>
   </body>
 </html>
