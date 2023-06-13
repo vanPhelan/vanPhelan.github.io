@@ -23,26 +23,31 @@
     <div class="topnav">
       <h1><a class="name" href="https://vanphelan.github.io/">Van Phelan</a></h1>
       <p>
+        <a class="navout" href="index.html">< Back</a>
         <a class="navout" href="/resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
         <a class="navout" href="https://github.com/vanPhelan" target="_blank" rel="noopener noreferrer">GitHub</a>
         <a class="navout" href="https://www.linkedin.com/in/van-phelan/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
       </p>
     </div>
 
-    <div class="content">
+    <div class="blog">
       <h2>The Legend of Excalipurr</h2>
       <h3>Weapon Design</h3>
       <h4>Sword Physics</h4>
       <p><img src="assets/images/excalipurr.jpg"/></p>
       <p>
-        Excalipurr itself is YOUr primary attack for nearly the entire game, so I needed to ensure that it felt perfect to use. The game has a great deal of verticality, and landing the quick sword swing midair proved to be more difficult than I was happy with. I added a little bounce (which I ended up calling a "sword hop") to airborne strikes, and it made landing attacks against an intended target much easier. The second attack (the thrust) has less bounce on it and more delay at the end to ensure the player can't stall in midair for longer than feels right.
+        Excalipurr itself is the primary attack for nearly the entire game, so I needed to ensure that it felt perfect to use. The game has a great deal of verticality, and landing the quick sword swing midair proved to be more difficult than I was happy with. I added a little bounce (which I ended up calling a "sword hop") to airborne strikes, and it made landing attacks against an intended target much easier. The second attack (the thrust) has less bounce on it and more delay at the end to ensure the player can't stall in midair for longer than feels right.
       </p>
-      <p><img src="assets/images/excalipurr.jpg"/></p>
+      <p><a class="blog" href="assets/images/excalipurr/swordhop.gif" target="_blank" rel="noopener noreferrer">
+        <img src="assets/images/excalipurr/swordhop.gif"/>
+      </a></p>
       <p>
         Sword hopping proved to be a lot of fun, so I added an extra use for it. If timed at the height of a jump, a sword hop allows the player to reach just one tile higher. This added a lot of opportunity for level design, especially in creating shortcuts and tough to reach areas. I liked the idea of each item being useful for more than just combat, and Excalipurr was no exception.
       </p>
       <h4>Hammer Impact</h4>
-      <p><img src="assets/images/excalipurr.jpg"/></p>
+      <p><a class="blog" href="assets/images/excalipurr/hammer.gif" target="_blank" rel="noopener noreferrer">
+        <img src="assets/images/excalipurr/hammer.gif"/>
+      </a></p>
       <p>
         For the hammer ("Meowlnir"), I had a very particular vision. I wanted it to feel like a heavy baseball swing, and part of feeling that impact is the screen freeze. In our 2D animations we used a great deal of smear frames, and freezing on a smear didn't correctly capture the exact moment of impact like I envisioned. To acheive this, the animation actually branches at the point of impact to one that doesn't smear for that frame but <i>does</i> smear for the remainder of the animation. Even without screenshake, the hammer felt <b>heavy</b>.
       </p>
@@ -70,13 +75,19 @@
       </p>
       <h3>Level Design</h3>
       <h4>Showing Surfaces</h4>
-      <p><img src="assets/images/excalipurr.jpg"/></p>
+      <p><a class="blog" href="assets/images/excalipurr/pathing.png" target="_blank" rel="noopener noreferrer">
+        <img src="assets/images/excalipurr/pathing.png"/>
+      </a></p>
       <p>
         With a variety of environments it was important to show where the player could walk. Surfaces intended for walking needed to be clear, so we had them highlighted. This was important because the <i>ends</i> of paths could also be signaled this way, which opened up the opportunity for secret walls. Secret walls could be signaled in a way that was consistent but still required attention from the player. I didn't want secrets to feel completely arbitrary, but I wanted to have a lot of them.
       </p>
-      <p><img src="assets/images/excalipurr.jpg"/></p>
+      <p><a class="blog" href="assets/images/excalipurr/falsewall.png" target="_blank" rel="noopener noreferrer">
+        <img src="assets/images/excalipurr/falsewall.png"/>
+      </a></p>
       <h4>"If it looks like you can, you can"</h4>
-      <p><img src="assets/images/excalipurr.jpg"/></p>
+      <p><a class="blog" href="assets/images/excalipurr/secret.gif" target="_blank" rel="noopener noreferrer">
+        <img src="assets/images/excalipurr/secret.gif"/>
+      </a></p>
       <p>
         A philosophy of level design I like to incorporate is the idea of allowing the player to feel smart. If there's a path that seems unreachable, it should either still lead somewhere or be removed. Players are quite skilled at finding ways to reach unexpected places, and meeting an invisible wall after a difficult and clever feat is disappointing. On the other hand, rewarding players for finding unusual locations leads to a lot of memorable (and sharable!) experiences.
       </p>
