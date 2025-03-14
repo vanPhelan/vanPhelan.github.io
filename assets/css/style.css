@@ -86,6 +86,11 @@ h2 {
   color: var(--subtle-text) !important;
 }
 
+.about {
+  min-width: 50%;
+  max-width: 800px;
+}
+
 .gallery {
   height: 400px;
   overflow-x: auto;
